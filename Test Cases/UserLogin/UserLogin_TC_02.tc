@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>menggunakan data yang tidak valid (email tidak sesuai format)</description>
+   <name>UserLogin_TC_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2c437ff-3a5c-42fa-afc3-f06dca7d1e3a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6a29181-6438-449a-923d-efd774de058b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b306b074-01c7-4268-9342-3dff6481531a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

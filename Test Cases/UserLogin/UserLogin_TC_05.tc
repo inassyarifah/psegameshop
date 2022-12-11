@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>tidak mengisi salah satu field (field email kosong)</description>
+   <name>UserLogin_TC_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a910a5c-93e1-43cc-8d5c-e4be010cb1f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0eb96d13-4113-4187-844f-ac510c503519</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0eb96d13-4113-4187-844f-ac510c503519</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

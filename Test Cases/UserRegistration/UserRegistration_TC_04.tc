@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>tidak mengisi field password yang valid (password &lt;12 karakter)</description>
+   <name>UserRegistration_TC_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d8de42f-c2b7-4948-8168-8bbb0c320baf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76009b07-483c-43d5-8e4a-bd2c399d2f2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>93a7f7bf-ecdf-4599-ba14-aaa49c4f5b1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d9b06eb-3d17-4e38-a769-ac9b1eebfb0d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76009b07-483c-43d5-8e4a-bd2c399d2f2f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>93a7f7bf-ecdf-4599-ba14-aaa49c4f5b1f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d9b06eb-3d17-4e38-a769-ac9b1eebfb0d</id>
+      <masked>false</masked>
+      <name>confirm_password</name>
+   </variable>
+</TestCaseEntity>

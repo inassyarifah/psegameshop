@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>mengisi data yang berbeda pada field password &amp; confirm password (data password dengan data confirm password tidak sama)</description>
+   <name>UserRegistration_TC_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2d742d0-127f-43b0-8c38-c8cd2565100e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50108b9d-604e-4bd2-9965-99f10d570c2e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cc65af7-3dbf-4e5e-9d85-a64f776a9e92</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3986b864-8c97-48cf-8b47-e88bc5d2ae8e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50108b9d-604e-4bd2-9965-99f10d570c2e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cc65af7-3dbf-4e5e-9d85-a64f776a9e92</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3986b864-8c97-48cf-8b47-e88bc5d2ae8e</id>
+      <masked>false</masked>
+      <name>confirm_password</name>
+   </variable>
+</TestCaseEntity>

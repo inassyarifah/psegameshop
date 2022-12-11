@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>tidak mengisi salah satu field (field password kosong)</description>
+   <name>UserLogin_TC_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18b86051-bdb8-4fe8-86a1-b966e995f9ac</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ed34cec-faf7-4a3b-a1eb-ad59be37aed6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ed34cec-faf7-4a3b-a1eb-ad59be37aed6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

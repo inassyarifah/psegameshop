@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Gamaliel_tawk-icon tawk-icon-close</name>
+   <tag></tag>
+   <elementGuidId>c76f3488-cc07-43ff-be86-538ca7993151</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tawk-mpreview-close']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.tawk-icon.tawk-icon-close</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>a0c2ed08-032e-4120-8884-37b4f1e9a7ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tawk-icon tawk-icon-close</value>
+      <webElementGuid>adcc13f9-b89a-4e7b-9e26-90425ef85081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tawk-mpreview-close&quot;)/i[@class=&quot;tawk-icon tawk-icon-close&quot;]</value>
+      <webElementGuid>a71d163e-e70d-426e-8de9-281d1f0d660c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Registration-02/Page_Form Register/iframe__h9dmugl2kicg1670608448954</value>
+      <webElementGuid>b4eecfbe-9cbe-48aa-bea5-3fa16d241784</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tawk-mpreview-close']/i</value>
+      <webElementGuid>7cf0e4b0-78ec-4699-b747-adfaccfc26c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>f69816c1-72f7-4e48-9a76-6f4e55e8b315</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

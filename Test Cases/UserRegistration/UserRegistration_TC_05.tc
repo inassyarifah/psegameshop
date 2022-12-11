@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>tidak mengisi field password &amp; confirm password (field password &amp; confirm password kosong)</description>
+   <name>UserRegistration_TC_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fc73049-90f4-461e-8f10-c69fd6788024</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ce1f4da-cdf0-4189-b67a-cb345e94194a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8ce1f4da-cdf0-4189-b67a-cb345e94194a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

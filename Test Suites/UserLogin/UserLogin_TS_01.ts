@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>UserLogin_TS_01</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>bb722c76-1614-4b08-9b43-6de17e3646b0</testSuiteGuid>
+   <testCaseLink>
+      <guid>bb3e6576-6973-4a6f-8bdd-f4e5c55ae2a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UserLogin/UserLogin_TC_01</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e9fc2303-f2bc-4352-94ed-d3e0e237b218</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Valid_DataLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e9fc2303-f2bc-4352-94ed-d3e0e237b218</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>2ca84283-8b05-4211-8d63-66be277b5b62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e9fc2303-f2bc-4352-94ed-d3e0e237b218</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>57a63b0b-5581-4912-9e13-7248b5de61be</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>932f3a87-ccfc-455c-8598-4381eadaa623</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UserLogin/UserLogin_TC_02</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c52f671c-2fb1-4145-b86f-ea5a70a2dc96</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataLogin/Invalid_DataLogin_Username</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c52f671c-2fb1-4145-b86f-ea5a70a2dc96</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b6a29181-6438-449a-923d-efd774de058b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c52f671c-2fb1-4145-b86f-ea5a70a2dc96</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b306b074-01c7-4268-9342-3dff6481531a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>27edce3c-e5ef-4c40-a284-a3a93dcebddf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UserLogin/UserLogin_TC_03</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e4148d94-8de2-4832-a512-c8297a332f48</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Valid_DataLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e4148d94-8de2-4832-a512-c8297a332f48</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0ed34cec-faf7-4a3b-a1eb-ad59be37aed6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c4619a0-85ef-49db-8e70-1d73ca132568</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UserLogin/UserLogin_TC_04</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eb0c3212-ddd4-4083-b4ee-a28a7073188d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataLogin/Invalid_DataLogin_Password</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>eb0c3212-ddd4-4083-b4ee-a28a7073188d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a4e73709-ea0e-4ad2-a247-0177c97b0ac8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb0c3212-ddd4-4083-b4ee-a28a7073188d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>7daac9fd-ca8b-4bb5-8033-9e241ca5ae91</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>be744be6-6394-43ae-94b9-c960bd7a3d45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UserLogin/UserLogin_TC_05</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ab124349-ea9a-4aae-88fe-40226cf10bd2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Valid_DataLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ab124349-ea9a-4aae-88fe-40226cf10bd2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>0eb96d13-4113-4187-844f-ac510c503519</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>32706b42-4de1-4862-a994-91fafa40dba5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UserLogin/UserLogin_TC_06</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f1df3200-84be-4bf2-986c-2484f9878173</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Valid_DataLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f1df3200-84be-4bf2-986c-2484f9878173</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>2212a7ca-015f-4cf3-b5f4-5b7ec4092015</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

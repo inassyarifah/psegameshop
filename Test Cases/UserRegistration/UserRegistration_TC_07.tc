@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>menggunakan data yang sudah terdaftar (akun terdaftar pada database)</description>
+   <name>UserRegistration_TC_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac9f91d7-c127-4f5b-91c3-e6c9027830d5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58e50d69-a2e6-4fa4-8245-5ab69102fbac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42c653c9-37cd-47ab-bc30-575515982b69</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66203169-c84d-45e4-89da-5d6cb8b9b181</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58e50d69-a2e6-4fa4-8245-5ab69102fbac</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42c653c9-37cd-47ab-bc30-575515982b69</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66203169-c84d-45e4-89da-5d6cb8b9b181</id>
+      <masked>false</masked>
+      <name>confirm_password</name>
+   </variable>
+</TestCaseEntity>

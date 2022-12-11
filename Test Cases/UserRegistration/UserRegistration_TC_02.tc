@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>menggunakan data yang tidak valid (email tidak sesuai format)</description>
+   <name>UserRegistration_TC_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>907e6b3e-35c1-4e3c-a2f5-81b758a2ff0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aaf150ac-de90-48f6-a7b8-560141fb7d46</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66d48d33-b2c2-44d6-9f3d-1cd3020b18ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f453ad3-5c8b-4f12-a6e8-26f6e6b1e257</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aaf150ac-de90-48f6-a7b8-560141fb7d46</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66d48d33-b2c2-44d6-9f3d-1cd3020b18ee</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f453ad3-5c8b-4f12-a6e8-26f6e6b1e257</id>
+      <masked>false</masked>
+      <name>confirm_password</name>
+   </variable>
+</TestCaseEntity>

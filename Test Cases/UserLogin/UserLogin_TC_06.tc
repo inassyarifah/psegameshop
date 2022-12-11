@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>user lupa password (reset password)</description>
+   <name>UserLogin_TC_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d927d737-56f1-419d-a696-24257a5a3290</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2212a7ca-015f-4cf3-b5f4-5b7ec4092015</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2212a7ca-015f-4cf3-b5f4-5b7ec4092015</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
