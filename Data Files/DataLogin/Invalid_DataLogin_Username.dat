@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>df3051c1-4322-41d1-b85b-4e80ad1bfa6f</dataFileGUID>
-   <dataSourceUrl>../../Desktop/DataLogin.xlsx</dataSourceUrl>
+   <dataSourceUrl>DataLogin.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

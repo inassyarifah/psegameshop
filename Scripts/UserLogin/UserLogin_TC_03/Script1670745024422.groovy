@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Login-03/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Object Repository/Page_Home/i_home_icon-user'))
 
-WebUI.setText(findTestObject('Object Repository/Login-03/Page_Home - PS Enterprise Gameshop/input__username'), username)
+WebUI.setText(findTestObject('Object Repository/Alert/input__username'), username)
 
-WebUI.click(findTestObject('Object Repository/Login-03/Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_Form Login/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login-03/Page_Home - PS Enterprise Gameshop/div_Error The password field is empty'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_alert_Error The password field is empty'), 
     'Error: The password field is empty.')
 
 WebUI.closeBrowser()

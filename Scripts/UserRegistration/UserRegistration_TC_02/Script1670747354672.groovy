@@ -21,29 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Registration-02/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-02/Page_Form Register/select_Please Select OneActionRacingSimulat_02dff3'), 
-    'Puzzle', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteGenre'), 'Puzzle', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-02/Page_Home - PS Enterprise Gameshop/select_Please Select OnePlaystationXBoxNintendoPC'), 
-    'XBox', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteConsole'), 'XBox', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-02/Page_Home - PS Enterprise Gameshop/select_Please Select OneCulinaryTraveling  _80d3f1'), 
-    'Culinary', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteHobbiesInterest'), 'Culinary', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/Registration-02/Page_Home - PS Enterprise Gameshop/input_Female_acffield_5ea3be750efb3'))
+WebUI.click(findTestObject('Page_Form Register/input_gender'))
 
-WebUI.setText(findTestObject('Object Repository/Registration-02/Page_Form Register/input__email'), email)
+WebUI.setText(findTestObject('Page_Form Register/input__email'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration-02/Page_Form Register/input__password'), password)
+WebUI.setEncryptedText(findTestObject('Page_Form Register/input__password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration-02/Page_Home - PS Enterprise Gameshop/input__confirm_password'), 
-    confirm_password)
+WebUI.setEncryptedText(findTestObject('Page_Form Register/input__confirmpassword'), confirm_password)
 
-WebUI.click(findTestObject('Object Repository/Registration-02/Page_Form Register/button_Register'))
+WebUI.click(findTestObject('Page_Form Register/button_Register'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Registration-02/Page_Home - PS Enterprise Gameshop/div_Error Please provide a valid email address'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_alert_Error Please provide a valid email address'), 
     'Error: Please provide a valid email address.')
 
 WebUI.closeBrowser()

@@ -21,19 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Login-01/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Object Repository/Page_Home/i_home_icon-user'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Login-01/Page_Home - PS Enterprise Gameshop/input__username'))
+WebUI.setText(findTestObject('Object Repository/Page_Form Login/input__username'), username)
 
-WebUI.setText(findTestObject('Object Repository/Login-01/Page_Home - PS Enterprise Gameshop/input__username'), username)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Form Login/input__password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login-01/Page_Form Login/input__password'), password)
+WebUI.click(findTestObject('Object Repository/Page_Form Login/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Login-01/Page_Form Login/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard_My Account/i_dahsboard_icon-user'))
 
-WebUI.click(findTestObject('Object Repository/Login-01/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user_1'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Login-01/Page_My Account - PS Enterprise Gameshop/p_Hello inassyarifah22 (not inassyarifah22 _6f1a94'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dashboard_My Account/p_verificator_Hello inassyarifah22'), 
     'Hello inassyarifah22 (not inassyarifah22? Log out)')
 
 WebUI.closeBrowser()

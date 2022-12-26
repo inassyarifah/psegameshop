@@ -21,29 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Registration-01/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-01/Page_Home - PS Enterprise Gameshop/select_Please Select OneActionRacingSimulat_02dff3'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Form Register/select_favoriteGenre'), 
     'Action', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-01/Page_Form Register/select_Please Select OnePlaystationXBoxNintendoPC'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Form Register/select_favoriteConsole'), 
     'Playstation', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-01/Page_Form Register/select_Please Select OneCulinaryTraveling  _80d3f1'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Form Register/select_favoriteHobbiesInterest'), 
     'Traveling & Leisure', true)
 
-WebUI.click(findTestObject('Object Repository/Registration-01/Page_Form Register/input_Female_acffield_5ea3be750efb3'))
+WebUI.click(findTestObject('Object Repository/Page_Form Register/input_gender'))
 
-WebUI.setText(findTestObject('Object Repository/Registration-01/Page_Form Register/input__email'), email)
+WebUI.setText(findTestObject('Object Repository/Page_Form Register/input__email'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration-01/Page_Home - PS Enterprise Gameshop/input__password'), 
-    password)
+WebUI.setEncryptedText(findTestObject('Page_Form Register/input__password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration-01/Page_Form Register/input__confirm_password'), confirm_password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Form Register/input__confirmpassword'), confirm_password)
 
-WebUI.click(findTestObject('Object Repository/Registration-01/Page_Form Register/button_Register'))
+WebUI.click(findTestObject('Object Repository/Page_Form Register/button_Register'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Registration-01/Page_My Account - PS Enterprise Gameshop/div_Thank you for registering. Your account_a036eb'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_Thank you for registering. Your account_a036eb'), 
     'Thank you for registering. Your account has to be activated before you can login. Please check your email.')
 
 WebUI.closeBrowser()

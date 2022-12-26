@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Login-06/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.click(findTestObject('Object Repository/Login-06/Page_Home - PS Enterprise Gameshop/a_Lost your password'))
+WebUI.click(findTestObject('Object Repository/Page_Form Login/a_Lost your password'))
 
-WebUI.setText(findTestObject('Object Repository/Login-06/Page_My Account - PS Enterprise Gameshop/input_Username or email_user_login'), 
+WebUI.setText(findTestObject('Object Repository/Page_Reset Password/input_Username or email_user_login'), 
     username)
 
-WebUI.click(findTestObject('Object Repository/Login-06/Page_My Account - PS Enterprise Gameshop/button_Reset password'))
+WebUI.click(findTestObject('Object Repository/Page_Reset Password/button_Reset password'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login-06/Page_My Account - PS Enterprise Gameshop/div_Password reset email has been sent'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Reset Password/div_Password reset email has been sent'), 
     'Password reset email has been sent.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login-06/Page_My Account - PS Enterprise Gameshop/p_A password reset email has been sent to t_c3a80e'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Reset Password/p_A password reset email has been sent to t_c3a80e'), 
     'A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset.')
 
 WebUI.closeBrowser()

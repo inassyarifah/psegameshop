@@ -21,16 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Login-02/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Object Repository/Page_Home/i_home_icon-user'))
 
-WebUI.setText(findTestObject('Object Repository/Login-02/Page_Home - PS Enterprise Gameshop/input__username'), username)
+WebUI.setText(findTestObject('Object Repository/Page_Form Login/input__username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login-02/Page_Home - PS Enterprise Gameshop/input__password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Form Login/input__password'), 
     password)
 
-WebUI.click(findTestObject('Object Repository/Login-02/Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_Form Login/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login-02/Page_Home - PS Enterprise Gameshop/div_Error The username inassyarifah22gmail._83d8a7'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_alert_Error The username is Not registered'), 
     'Error: The username inassyarifah22gmail.com is not registered on this site. If you are unsure of your username, try your email address instead.')
 
 WebUI.closeBrowser()

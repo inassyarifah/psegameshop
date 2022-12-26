@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Valid_DataLogin</testDataId>
+         <testDataId>Data Files/DataLogin/Valid_DataLogin</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -42,7 +42,7 @@
    <testCaseLink>
       <guid>932f3a87-ccfc-455c-8598-4381eadaa623</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UserLogin/UserLogin_TC_02</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -70,20 +70,20 @@
    <testCaseLink>
       <guid>27edce3c-e5ef-4c40-a284-a3a93dcebddf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UserLogin/UserLogin_TC_03</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e4148d94-8de2-4832-a512-c8297a332f48</id>
+         <id>29c68161-4f46-42a2-af12-3adda1f55648</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Valid_DataLogin</testDataId>
+         <testDataId>Data Files/DataLogin/Valid_DataLogin</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>e4148d94-8de2-4832-a512-c8297a332f48</testDataLinkId>
+         <testDataLinkId>29c68161-4f46-42a2-af12-3adda1f55648</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>0ed34cec-faf7-4a3b-a1eb-ad59be37aed6</variableId>
@@ -92,7 +92,7 @@
    <testCaseLink>
       <guid>6c4619a0-85ef-49db-8e70-1d73ca132568</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UserLogin/UserLogin_TC_04</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -120,20 +120,20 @@
    <testCaseLink>
       <guid>be744be6-6394-43ae-94b9-c960bd7a3d45</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UserLogin/UserLogin_TC_05</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ab124349-ea9a-4aae-88fe-40226cf10bd2</id>
+         <id>699af8d5-9955-4c2d-a0e5-aed93fca3087</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Valid_DataLogin</testDataId>
+         <testDataId>Data Files/DataLogin/Valid_DataLogin</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>ab124349-ea9a-4aae-88fe-40226cf10bd2</testDataLinkId>
+         <testDataLinkId>699af8d5-9955-4c2d-a0e5-aed93fca3087</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>0eb96d13-4113-4187-844f-ac510c503519</variableId>
@@ -142,20 +142,20 @@
    <testCaseLink>
       <guid>32706b42-4de1-4862-a994-91fafa40dba5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/UserLogin/UserLogin_TC_06</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f1df3200-84be-4bf2-986c-2484f9878173</id>
+         <id>89ddc561-c33c-4895-b15a-5a51e3996aad</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Valid_DataLogin</testDataId>
+         <testDataId>Data Files/DataLogin/Valid_DataLogin</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>f1df3200-84be-4bf2-986c-2484f9878173</testDataLinkId>
+         <testDataLinkId>89ddc561-c33c-4895-b15a-5a51e3996aad</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>2212a7ca-015f-4cf3-b5f4-5b7ec4092015</variableId>

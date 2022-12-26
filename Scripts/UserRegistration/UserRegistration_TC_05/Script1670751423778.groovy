@@ -21,24 +21,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/select_Please Select OneActionRacingSimulat_02dff3'), 
-    'Role Playing', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteGenre'), 'Role Playing', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/select_Please Select OnePlaystationXBoxNintendoPC'), 
-    'Playstation', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteConsole'), 'Playstation', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/select_Please Select OneCulinaryTraveling  _80d3f1'), 
-    'Toys & Collectibles', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteHobbiesInterest'), 'Toys & Collectibles', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/input_Female_acffield_5ea3be750efb3'))
+WebUI.click(findTestObject('Page_Form Register/input_gender'))
 
-WebUI.setText(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/input__email'), email)
+WebUI.setText(findTestObject('Page_Form Register/input__email'), email)
 
-WebUI.click(findTestObject('Object Repository/Registration-05/Page_Home - PS Enterprise Gameshop/button_Register'))
+WebUI.click(findTestObject('Page_Form Register/button_Register'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Registration-05/Page_Form Register/div_Error Please enter an account password'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_alert_Error Please enter an account password'), 
     'Error: Please enter an account password.')
 
 WebUI.closeBrowser()

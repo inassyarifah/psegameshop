@@ -21,31 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/select_Please Select OneActionRacingSimulat_02dff3'), 
-    'Adventure', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteGenre'), 'Adventure', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/select_Please Select OnePlaystationXBoxNintendoPC'), 
-    'PC', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteConsole'), 'PC', 
+    true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/select_Please Select OneCulinaryTraveling  _80d3f1'), 
-    'Lifestyle & Shopping', true)
+WebUI.selectOptionByValue(findTestObject('Page_Form Register/select_favoriteHobbiesInterest'), 'Lifestyle & Shopping', 
+    true)
 
-WebUI.click(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/input_Female_acffield_5ea3be750efb3'))
+WebUI.click(findTestObject('Page_Form Register/input_gender'))
 
-WebUI.setText(findTestObject('Object Repository/Registration-04/Page_Form Register/input__email'), email)
+WebUI.setText(findTestObject('Page_Form Register/input__email'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/input__password'), 
-    password)
+WebUI.setEncryptedText(findTestObject('Page_Form Register/input__password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration-04/Page_Home - PS Enterprise Gameshop/input__confirm_password'), 
-    confirm_password)
+WebUI.setEncryptedText(findTestObject('Page_Form Register/input__confirmpassword'), confirm_password)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Registration-04/Page_Form Register/div_Very weak - Please enter a stronger password'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_alert_Password very weak'), 
     'Very weak - Please enter a stronger password.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Registration-04/Page_Form Register/small_Hint The password should be at least _301386'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/small_alert_Hint The password should be at least 12 char'), 
     'Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ & ).')
 
 WebUI.closeBrowser()

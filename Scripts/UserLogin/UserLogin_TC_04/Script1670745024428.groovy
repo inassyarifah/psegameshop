@@ -21,14 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Login-04/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.setText(findTestObject('Object Repository/Login-04/Page_Home - PS Enterprise Gameshop/input__username'), username)
+WebUI.setText(findTestObject('Page_Form Login/input__username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login-04/Page_Home - PS Enterprise Gameshop/input__password'), 
-    password)
+WebUI.setEncryptedText(findTestObject('Page_Form Login/input__password'), password)
 
-WebUI.click(findTestObject('Object Repository/Login-04/Page_Home - PS Enterprise Gameshop/button_Log in'))
+WebUI.click(findTestObject('Page_Form Login/button_Log in'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Login-04/Page_Home - PS Enterprise Gameshop/div_Error The password you entered for the _7475f9'), 
     'Error: The password you entered for the email address inassyarifah22@gmail.com is incorrect. Lost your password?')

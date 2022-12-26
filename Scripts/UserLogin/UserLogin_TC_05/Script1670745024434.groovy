@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.webURL)
 
-WebUI.click(findTestObject('Object Repository/Login-05/Page_Home - PS Enterprise Gameshop/i_Coming Soon_icon-user'))
+WebUI.click(findTestObject('Page_Home/i_home_icon-user'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login-05/Page_Form Login/input__password'), password)
+WebUI.setEncryptedText(findTestObject('Page_Form Login/input__password'), password)
 
-WebUI.click(findTestObject('Object Repository/Login-05/Page_Form Login/button_Log in'))
+WebUI.click(findTestObject('Page_Form Login/button_Log in'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login-05/Page_Home - PS Enterprise Gameshop/div_Error Username is required'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Alert/div_alert_Error Username is required'), 
     'Error: Username is required.')
 
 WebUI.closeBrowser()
