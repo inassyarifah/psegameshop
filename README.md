@@ -1,0 +1,1 @@
+# psegameshop_katalon
